@@ -1,0 +1,48 @@
+.areas {
+    background-color: var(--color-gris-claro);
+}
+
+.areas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.area-card {
+    background: #fff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.area-card:hover {
+    transform: translateY(-5px);
+}
+.area-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.area-info {
+    padding: 1.5rem;
+}
+.area-info h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 1.8rem;
+    color: var(--color-primario);
+    margin-bottom: 0.5rem;
+}
+.area-info p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+.area-info a {
+    color: var(--color-secundario);
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+.area-info a:hover {
+    text-decoration: underline;
+}

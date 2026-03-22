@@ -1,0 +1,35 @@
+.equipo {
+    background-color: #fff;
+}
+.equipo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.miembro-card {
+    text-align: center;
+}
+.miembro-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 50%;  /* opcional, pero lo dejamos redondo para un toque clásico */
+    margin-bottom: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.miembro-card h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 1.8rem;
+    color: var(--color-primario);
+    margin-bottom: 0.25rem;
+}
+.miembro-card .cargo {
+    color: var(--color-secundario);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+.miembro-card p {
+    color: #666;
+    font-size: 0.95rem;
+}

@@ -1,0 +1,79 @@
+:root {
+    --color-primario: #1c2b4f;      /* azul marino profundo */
+    --color-secundario: #c9a959;     /* dorado elegante */
+    --color-texto: #2d2d2d;
+    --color-fondo: #ffffff;
+    --color-gris-claro: #f8f9fa;
+    --fuente-titulos: 'Cormorant Garamond', serif;
+    --fuente-cuerpo: 'Montserrat', sans-serif;
+    --espaciado: 1rem;
+    --border-radius: 0px;            /* bordes rectos para un look más serio */
+    --max-width: 1200px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--fuente-cuerpo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    background-color: var(--color-fondo);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.container {
+    width: 90%;
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: calc(var(--espaciado) * 4) 0;
+}
+
+.text-center { text-align: center; }
+
+.btn {
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    background-color: transparent;
+    color: var(--color-primario);
+    border: 2px solid var(--color-primario);
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.btn:hover {
+    background-color: var(--color-primario);
+    color: #fff;
+}
+
+/* Utilidades */
+.titulo-seccion {
+    font-family: var(--fuente-titulos);
+    font-size: 2.8rem;
+    color: var(--color-primario);
+    margin-bottom: 2rem;
+    position: relative;
+    padding-bottom: 1rem;
+}
+.titulo-seccion::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 2px;
+    background-color: var(--color-secundario);
+}

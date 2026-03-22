@@ -1,0 +1,35 @@
+.
+├── assets
+│   └── img
+│       └── hero-bg.jpg
+├── componentes
+│   ├── areas.html
+│   ├── contacto.html
+│   ├── equipo.html
+│   ├── footer.html
+│   ├── header.html
+│   ├── hero.html
+│   ├── servicios.html
+│   ├── sobre-nosotros.html
+│   └── testimonios.html
+├── css
+│   ├── componentes
+│   │   ├── areas.css
+│   │   ├── contacto.css
+│   │   ├── equipo.css
+│   │   ├── footer.css
+│   │   ├── header.css
+│   │   ├── hero.css
+│   │   ├── seccion-generica.css
+│   │   ├── servicios.css
+│   │   ├── sobre-nosotros.css
+│   │   └── testimonios.css
+│   └── main.css
+├── estructura.txt
+├── index.html
+└── js
+    ├── componentes.js
+    ├── formularios.js
+    └── main.js
+
+7 directories, 26 files

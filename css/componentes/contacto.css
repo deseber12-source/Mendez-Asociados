@@ -1,0 +1,85 @@
+.contacto {
+    background: linear-gradient(rgba(28, 43, 79, 0.95), rgba(28, 43, 79, 0.95)), url('../assets/img/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.contacto h2 {
+    color: #fff;
+}
+.contacto h2::after {
+    background-color: var(--color-secundario);
+}
+
+.contacto-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.contacto-form .form-group {
+    margin-bottom: 1.5rem;
+}
+.contacto-form label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.contacto-form input,
+.contacto-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    background: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.3);
+    color: #fff;
+    font-family: var(--fuente-cuerpo);
+}
+.contacto-form input:focus,
+.contacto-form textarea:focus {
+    outline: none;
+    border-color: var(--color-secundario);
+}
+
+.contacto-info {
+    background: rgba(0,0,0,0.3);
+    padding: 2rem;
+    backdrop-filter: blur(5px);
+}
+.contacto-info h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 2rem;
+    color: var(--color-secundario);
+    margin-bottom: 1.5rem;
+}
+.contacto-info p {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.contacto-info a {
+    color: #fff;
+    text-decoration: none;
+}
+.contacto-info a:hover {
+    color: var(--color-secundario);
+}
+
+.btn-contacto {
+    background-color: var(--color-secundario);
+    border: none;
+    color: var(--color-primario);
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn-contacto:hover {
+    background-color: #b8944a;
+}
+
+@media (max-width: 768px) {
+    .contacto-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

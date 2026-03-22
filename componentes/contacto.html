@@ -1,0 +1,40 @@
+<section id="contacto" class="contacto">
+    <div class="container">
+        <h2 class="titulo-seccion">Contacto</h2>
+        <div class="contacto-wrapper">
+            <form id="form-contacto" class="contacto-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre completo *</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico *</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" name="telefono">
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+                </div>
+
+                <input type="hidden" name="cliente_id" value="bufete-mendez">
+
+                <div class="cf-turnstile" data-sitekey="1x00000000000000000000AA" data-theme="dark"></div>
+
+                <button type="submit" class="btn btn-contacto">Enviar consulta</button>
+            </form>
+
+            <div class="contacto-info">
+                <h3>Oficina principal</h3>
+                <p>📍 Paseo de la Reforma 300, Col. Juárez, Ciudad de México</p>
+                <p>📞 <a href="tel:+525555555555">+52 55 5555 5555</a></p>
+                <p>📱 <a href="https://wa.me/525555555555">WhatsApp</a></p>
+                <p>✉️ <a href="mailto:contacto@mendezasociados.com">contacto@mendezasociados.com</a></p>
+                <p>🕒 Lunes a Viernes 9am - 7pm</p>
+            </div>
+        </div>
+    </div>
+</section>

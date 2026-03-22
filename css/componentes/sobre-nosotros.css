@@ -1,0 +1,37 @@
+.sobre-nosotros {
+    background-color: #fff;
+}
+.sobre-nosotros .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sobre-nosotros p {
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+.sobre-nosotros .filosofia {
+    display: flex;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.filosofia-item {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 1.5rem;
+    border: 1px solid #eee;
+}
+.filosofia-item h3 {
+    font-family: var(--fuente-titulos);
+    font-size: 1.8rem;
+    color: var(--color-primario);
+    margin-bottom: 1rem;
+}
+.filosofia-item p {
+    margin-bottom: 0;
+}
